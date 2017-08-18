@@ -4,7 +4,7 @@
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
-  <div class="top"><img src="img/top.jpg"></div>
+  <div class="top"><font style="color:#f80403;">성인</font><font style="color:#dab24c;">전화방</font></div>
   <div id=ad class="box_shadow">
     <!-- <img src="ad/ad_text.JPG" onclick="move_ad('https://github.com/okwei2000/webintent')"> -->
   </div>
@@ -28,8 +28,8 @@
     </div> -->
   </div>
   <div class=button_container>
-    <div class=addition_button onclick="get_phoneting_data()">10개 더보기</div>
-    <div class=top_button onclick="move_top()">TOP</div>
+    <div class=addition_button style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onclick="get_phoneting_data()" unselectable="on" onselectstart="return false;" onmousedown="return false;">10개 더보기</div>
+    <div class=top_button style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onclick="move_top()" unselectable="on" onselectstart="return false;" onmousedown="return false;">top</div>
   </div>
   <div class=clear></div>
   <script src="js/index.js"></script>

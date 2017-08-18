@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\Workstation\phone_ting\phoneting-native\platforms\android\CordovaLib\src\main\shaders"/></dataSet><dataSet config="release"><source path="E:\Workstation\phone_ting\phoneting-native\platforms\android\CordovaLib\src\release\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\leejunghun\gitproject\phoneting\phoneting-native\platforms\android\CordovaLib\src\main\shaders"/></dataSet><dataSet config="release"><source path="C:\Users\leejunghun\gitproject\phoneting\phoneting-native\platforms\android\CordovaLib\src\release\shaders"/></dataSet></merger>

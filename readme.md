@@ -1,0 +1,1 @@
+##### link:<admin>(http://total0808.cafe24.com/phoneting/admin/index_admin.php)

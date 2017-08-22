@@ -25,13 +25,19 @@ function get_phoneting_data(){
       line+='<div class=line_left>';
       line+='<img src="./girl_photos/';
       line+=obj[i].uri;
-      line+='" width="350" height="350"></div><div id=line_right style="width:'+line_right+'px;">';
+      line+='" width="300" height="300"></div><div id=line_right style="width:'+line_right+'px;">';
       line+='<div class="line_left_title line_left_left_margin line_left_right_margin">';
       //title
       line+=obj[i].title;
       line+='</div><div class="line_left_text line_left_left_margin line_left_right_margin">';
       //text
-      var white_space=obj[i].text.match(/\s/g || []).length+obj[i].text.match(/\./g || []).length;
+      var white_space=0;
+      if(obj[i].text.match(/\s/g || [])!=null){
+          white_space=obj[i].text.match(/\s/g || []).length;
+      }
+      if(obj[i].text.match(/\./g || [])!=null){
+        white_space+=obj[i].text.match(/\./g || []).length;
+      }
       if(obj[i].text.length-white_space/2>char_count*3){
         obj[i].text=obj[i].text.substring(0,char_count*3+white_space/2)+"...";
       }
@@ -67,7 +73,7 @@ function get_char_count(){
   char_count=right_width/32;
 }
 function set_line_right_size(){
-  line_right=$('body').width()-350-20;
+  line_right=$('body').width()-300-20;
 }
 window.onload=function(){
   get_char_count();

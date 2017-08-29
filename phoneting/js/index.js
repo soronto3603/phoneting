@@ -9,6 +9,42 @@ function ChangeTitle(){
     $('.top').css('background-color','#424242');
     $('.top').css('color','#fff');
     $('.top').html('<font style="color:#ffda30;">번개</font>대화방');
+  }else if(appid==2){//비밀대화
+    $('.top').css('background-color','#bf2344');
+    $('.top').css('color','#fff');
+    $('.top').html('<font style="color:#fff;">비밀</font>대화');
+  }else if(appid==3){//비밀폰팅
+    $('.top').css('background-color','#fdb1b7');
+    $('.top').css('color','#fff');
+    $('.top').html('<font style="color:#fff;">비밀</font>폰팅');
+  }else if(appid==4){//섹폰
+    $('.top').css('background-color','#ff452c');
+    $('.top').css('color','#fff');
+    $('.top').html('<font style="color:#fff;">섹</font>폰');
+  }else if(appid==5){//써니폰팅
+    $('.top').css('background-color','#ff9c0e');
+    $('.top').css('color','#fff');
+    $('.top').html('<font style="color:#fff;">써니</font>폰팅');
+  }else if(appid==6){//은밀폰팅
+    $('.top').css('background-color','#fff');
+    $('.top').css('color','#d33a3a');
+    $('.top').html('<font style="color:#d33a3a;">은밀</font>폰팅');
+  }else if(appid==7){//은밀한대화
+    $('.top').css('background-color','#3c1e61');
+    $('.top').css('color','#fff');
+    $('.top').html('<font style="color:#fff;">은밀한</font>대화');
+  }else if(appid==8){//은밀한폰팅
+    $('.top').css('background-color','#a3a3a3');
+    $('.top').css('color','#f96e54');
+    $('.top').html('<font style="color:#ae2a22;">은밀한</font>폰팅');
+  }else if(appid==9){//전화방
+    $('.top').css('background-color','#fff');
+    $('.top').css('color','#000');
+    $('.top').html('<font style="color:#000;">전화</font>방');
+  }else if(appid==10){//폰데이트 
+    $('.top').css('background-color','#3c586d');
+    $('.top').css('color','#fff');
+    $('.top').html('<font style="color:#fff;">폰</font>데이트');
   }
 }
 function getTextLength(str) {

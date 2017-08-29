@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\leejunghun\gitproject\phoneting\phoneting-native\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cd2af1a7180eb6427b58d868cd841d8212aca77e">
+        <dex dex="C:\Users\leejunghun\gitproject\phoneting\phoneting-native\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_fba91c5567fbb18ff430826048d4d52530c0efab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\leejunghun\gitproject\phoneting\phoneting-native\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2c139e3eabb40b123f0cf6810207106ab2b86120">
+        <dex dex="C:\Users\leejunghun\gitproject\phoneting\phoneting-native\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-6.2.3-release_5a352fc47d2ff21110ed28415628628b878aa61e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\leejunghun\gitproject\phoneting\ten\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2c139e3eabb40b123f0cf6810207106ab2b86120">
+        <dex dex="C:\Users\leejunghun\gitproject\phoneting\ten\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-6.2.3-release_fd73228a0ecb655fc5ffc67d8a4c60fb0caee3ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\leejunghun\gitproject\phoneting\ten\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cd2af1a7180eb6427b58d868cd841d8212aca77e">
+        <dex dex="C:\Users\leejunghun\gitproject\phoneting\ten\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_59165a907aa070a64ec8e72b9a772f270199d0e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\leejunghun\gitproject\phoneting\one\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2c139e3eabb40b123f0cf6810207106ab2b86120">
+        <dex dex="C:\Users\leejunghun\gitproject\phoneting\one\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-6.2.3-release_bc741178c0c0192e82e253c208774afcd8b67fa4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\leejunghun\gitproject\phoneting\one\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cd2af1a7180eb6427b58d868cd841d8212aca77e">
+        <dex dex="C:\Users\leejunghun\gitproject\phoneting\one\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_c82ca2a5ed4598f8a96234495dd8a64a5781e045.jar" />
+    </item>
+
+</items>

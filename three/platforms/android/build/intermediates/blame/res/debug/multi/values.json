@@ -1,0 +1,250 @@
+[
+    {
+        "outputFile": "C:\\Users\\leejunghun\\gitproject\\phoneting\\three\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\three\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 63,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 41,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\three\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 58,
+                    "endOffset": 215
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\three\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 58,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 63,
+                        "endOffset": 216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 42,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 42,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 58,
+                    "endOffset": 216
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 58,
+                        "endOffset": 152
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 63,
+                        "endOffset": 216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 42,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 42,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 58,
+                    "endOffset": 216
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 58,
+                        "endOffset": 152
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\leejunghun\\gitproject\\phoneting\\two\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\two\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 63,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 41,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\two\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 58,
+                    "endOffset": 215
+                },
+                "from": {
+                    "file": "C:\\Users\\leejunghun\\gitproject\\phoneting\\two\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 58,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

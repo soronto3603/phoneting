@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Aug 29 15:43:30 KST 2017
+#Tue Aug 29 16:15:41 KST 2017
 25.file=C\:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\build\\intermediates\\assets\\release\\www\\cordova-js-src\\plugin\\android\\app.js
 25.base=C\:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\build\\intermediates\\assets\\release
 22.set=ANDROID_RESOURCE

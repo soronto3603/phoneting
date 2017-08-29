@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-land-xxhdpi\\screen.png",
+        "source": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-land-xxhdpi\\screen.png",
+        "source": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\leejunghun\\gitproject\\phoneting\\two\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-land-xxhdpi\\screen.png",
+        "source": "C:\\Users\\leejunghun\\gitproject\\phoneting\\two\\platforms\\android\\res\\drawable-land-xxhdpi\\screen.png"
+    }
+]

@@ -1,7 +1,16 @@
 var fixed=0;
 let count=10;
 let char_count;
-var line_right
+var line_right;
+function ChangeTitle(){
+  if(!appid)return;
+  
+  if(appid==1){//번개대화방타이틀
+    $('.top').css('background-color','#424242');
+    $('.top').css('color','#fff');
+    $('.top').html('<font style="color:#ffda30;">번개</font>대화방');
+  }
+}
 function getTextLength(str) {
     var len = 0;
     for (var i = 0; i < str.length; i++) {
@@ -80,4 +89,5 @@ window.onload=function(){
   set_line_right_size();
   get_phoneting_data();
   get_phoneting_ad();
+  ChangeTitle();
 }

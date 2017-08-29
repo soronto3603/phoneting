@@ -2,6 +2,9 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+    var appid=<?=$_GET['appid']?>;
+  </script>
 </head>
 <body>
   <div class="top"><font style="color:#f80403;">성인</font><font style="color:#dab24c;">전화방</font></div>

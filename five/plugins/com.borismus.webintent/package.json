@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/cordova-misc/cordova-webintent.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/cordova-misc/cordova-webintent.git",
+        "spec": "git+https://github.com/cordova-misc/cordova-webintent.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:cordova-misc/cordova-webintent.git",
+          "sshUrl": "git+ssh://git@github.com/cordova-misc/cordova-webintent.git",
+          "httpsUrl": "git+https://github.com/cordova-misc/cordova-webintent.git",
+          "gitUrl": "git://github.com/cordova-misc/cordova-webintent.git",
+          "shortcut": "github:cordova-misc/cordova-webintent",
+          "directUrl": "https://raw.githubusercontent.com/cordova-misc/cordova-webintent/master/package.json"
+        }
+      },
+      "E:\\Workstation\\phone_ting\\phoneting-native\\node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/cordova-misc/cordova-webintent.git",
+  "_id": "cordova-webintent@1.1.0",
+  "_inCache": true,
+  "_location": "/cordova-webintent",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/cordova-misc/cordova-webintent.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/cordova-misc/cordova-webintent.git",
+    "spec": "git+https://github.com/cordova-misc/cordova-webintent.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:cordova-misc/cordova-webintent.git",
+      "sshUrl": "git+ssh://git@github.com/cordova-misc/cordova-webintent.git",
+      "httpsUrl": "git+https://github.com/cordova-misc/cordova-webintent.git",
+      "gitUrl": "git://github.com/cordova-misc/cordova-webintent.git",
+      "shortcut": "github:cordova-misc/cordova-webintent",
+      "directUrl": "https://raw.githubusercontent.com/cordova-misc/cordova-webintent/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/cordova-misc/cordova-webintent.git#560ac4fa1392849f80e1a89b25d0e48a591b5b02",
+  "_shasum": "c00914f12e7e890df09e3f424e4203dc6d74edce",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/cordova-misc/cordova-webintent.git",
+  "_where": "E:\\Workstation\\phone_ting\\phoneting-native\\node_modules",
+  "author": {
+    "name": "borismus"
+  },
+  "bugs": {
+    "url": "https://github.com/cordova-misc/cordova-webintent/issues"
+  },
+  "dependencies": {},
+  "description": "WebIntent Android Plugin for Cordova 3.X",
+  "devDependencies": {},
+  "gitHead": "560ac4fa1392849f80e1a89b25d0e48a591b5b02",
+  "homepage": "https://github.com/cordova-misc/cordova-webintent#readme",
+  "keywords": [
+    "cordova",
+    "webintent",
+    "intent"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cordova-webintent",
+  "optionalDependencies": {},
+  "readme": "# WebIntent Android Plugin for Cordova\r\n\r\n## History\r\n\r\n- Originally [written](http://smus.com/android-phonegap-plugins/)\r\n  by [Boris Smus](https://github.com/borismus)\r\n  and published to\r\n  [phonegap/phonegap-plugins](https://github.com/phonegap/phonegap-plugins/tree/DEPRECATED/Android/WebIntent)\r\n  (now deprecated)\r\n\r\n- Forked by [Rafael Agostini](https://github.com/Initsogar)\r\n  and published to\r\n  [Initsogar/cordova-webintent](https://github.com/Initsogar/cordova-webintent)\r\n  (now removed)\r\n\r\n- Forked by [Chris E. Kelley](https://github.com/chrisekelley)\r\n  and published to\r\n  [cordova-misc/cordova-webintent](https://github.com/cordova-misc/cordova-webintent)\r\n\r\n- Many people forked but for some reason did not submit PRs,\r\n  leaving their forks divergent.\r\n\r\n## Intention to maintain\r\n\r\n**This repo is actively maintained. Please feel free to treat it as the\r\ncanonical upstream, and submit PRs for any changes you'd like merged.**\r\n\r\n## Adding this plugin to your project\r\n\r\n1. To install the plugin, use the Cordova CLI:\r\n\r\n    ```bash\r\n    cordova plugin add https://github.com/cordova-misc/cordova-webintent.git\r\n    ```\r\n\r\n1. Confirm that the following is now in your `config.xml` file:\r\n\r\n    ```xml\r\n    <plugin name=\"WebIntent\" value=\"com.borismus.webintent.WebIntent\" />\r\n    ```\r\n\r\n## Sample code\r\n\r\nHere is an example of using webintent to open an Android .apk package, which then launches the Installer:\r\n\r\n```javascript\r\nwindow.plugins.webintent.startActivity({\r\n      action: window.plugins.webintent.ACTION_VIEW,\r\n      url: 'file://' + theFile.fullPath,\r\n      type: 'application/vnd.android.package-archive'\r\n    },\r\n    function () {},\r\n    function () {\r\n      alert('Failed to open URL via Android Intent.');\r\n      console.log('Failed to open URL via Android Intent. URL: ' + theFile.fullPath);\r\n    }\r\n);\r\n```\r\n\r\n## Using the plugin\r\n\r\nThe plugin creates the object `window.plugins.webintent` with five methods:\r\n\r\n### startActivity\r\n\r\nLaunches an Android intent. For example:\r\n\r\n```javascript\r\nwindow.plugins.webintent.startActivity({\r\n    action: window.plugins.webintent.ACTION_VIEW,\r\n    url: 'geo:0,0?q=' + address},\r\n    function () {},\r\n    function () { alert('Failed to open URL via Android Intent'); }\r\n);\r\n```\r\n\r\n### hasExtra\r\n\r\nChecks if this app was invoked with the specified extra. For example:\r\n\r\n```javascript\r\nwindow.plugins.webintent.hasExtra(WebIntent.EXTRA_TEXT,\r\n    function (has) {\r\n        // `has` is true iff app invoked with specified extra\r\n    }, function () {\r\n        // `hasExtra` check failed\r\n    }\r\n);\r\n```\r\n\r\n### getExtra\r\n\r\nGets the extra that this app was invoked with. For example:\r\n\r\n```javascript\r\nwindow.plugins.webintent.getExtra(WebIntent.EXTRA_TEXT,\r\n    function (url) {\r\n        // `url` is the value of EXTRA_TEXT\r\n    }, function () {\r\n        // There was no extra supplied.\r\n    }\r\n);\r\n```\r\n\r\n### getUri\r\n\r\nGets the URI the app was invoked with. For example:\r\n\r\n```javascript\r\nwindow.plugins.webintent.getUri(function (uri) {\r\n    if (uri !== '') {\r\n        // `uri` is the uri the intent was launched with.\r\n        //\r\n        // If this is the first run after the app was installed via a link with an install referrer\r\n        // (e.g. https://play.google.com/store/apps/details?id=com.example.app&referrer=referrer.com)\r\n        // then the Play Store will have fired an INSTALL_REFERRER intent that this plugin handles,\r\n        // and `uri` will contain the referrer value (\"referrer.com\" in the example above).\r\n        // ref: https://help.tune.com/marketing-console/how-google-play-install-referrer-works/\r\n    }\r\n});\r\n```\r\n\r\n### onNewIntent\r\n\r\nGets called when `onNewIntent` is called for the parent activity.\r\nUsed in only certain launchModes. For example:\r\n\r\n```javascript\r\nwindow.plugins.webintent.onNewIntent(function (uri) {\r\n    if (uri !== '') {\r\n        // `uri` is the uri that was passed to onNewIntent\r\n    }\r\n});\r\n```\r\n\r\n### sendBroadcast\r\nSends a custom intent passing optional extras\r\n\r\n```javascript\r\nwindow.plugins.webintent.sendBroadcast({\r\n    action: 'com.dummybroadcast.action.triggerthing',\r\n    extras: { option: true }\r\n  }, function() {\r\n  }, function() {\r\n});\r\n```\r\n\r\n## Licence ##\r\n\r\nThe MIT License\r\n\r\nCopyright (c) 2010-2017 Boris Smus and contributors\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in\r\nall copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\r\nTHE SOFTWARE.\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordova-misc/cordova-webintent.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

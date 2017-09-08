@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\leejunghun\\gitproject\\phoneting\\six\\platforms\\android\\build\\intermediates\\res\\merged\\release\\mipmap-ldpi\\icon.png",
+        "source": "C:\\Users\\leejunghun\\gitproject\\phoneting\\six\\platforms\\android\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\build\\intermediates\\res\\merged\\release\\mipmap-ldpi\\icon.png",
+        "source": "C:\\Users\\leejunghun\\gitproject\\phoneting\\one\\platforms\\android\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\build\\intermediates\\res\\merged\\release\\mipmap-ldpi\\icon.png",
+        "source": "C:\\Users\\leejunghun\\gitproject\\phoneting\\phoneting-native\\platforms\\android\\res\\mipmap-ldpi\\icon.png"
+    }
+]
